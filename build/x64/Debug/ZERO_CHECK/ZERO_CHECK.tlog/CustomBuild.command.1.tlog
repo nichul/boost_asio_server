@@ -1,0 +1,10 @@
+^C:\PROJECTS\BOOST_ASIO_SERVER\BUILD\CMAKEFILES\1656AE7C6B8ABF300BD9174909F8A81C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/projects/boost_asio_server -BC:/projects/boost_asio_server/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/projects/boost_asio_server/build/boost_asio_server.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

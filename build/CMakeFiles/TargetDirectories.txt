@@ -1,0 +1,3 @@
+C:/projects/boost_asio_server/build/CMakeFiles/boost_asio_server.dir
+C:/projects/boost_asio_server/build/CMakeFiles/ALL_BUILD.dir
+C:/projects/boost_asio_server/build/CMakeFiles/ZERO_CHECK.dir
